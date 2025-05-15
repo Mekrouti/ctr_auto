@@ -1,0 +1,208 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block content %}
+
+<section id="new-cars" class="new-cars">
+	<div class="container">
+		<div class="section-header">
+		
+			<h2>New Cars</h2>
+		</div>
+
+		<div class="new-cars-content">
+			<div class="owl-carousel owl-theme" id="new-cars-carousel">
+				{% for car in cars %}
+				<div class="new-cars-item">
+					<div class="single-new-cars-item">
+						<div class="row">
+							<div class="col-md-7 col-sm-12">
+								<div class="new-cars-img">
+									{% if car.image_front %}
+									<a href="{% url 'cars:car_detail' car.pk %}">
+ <img src="{{ car.image_front.url }}" alt="{{ car.model }}" /></a>
+									{% else %}
+										<img src="{% static 'assets/images/default-car.jpg' %}" alt="default image" />
+									{% endif %}
+								</div>
+							</div>
+							<div class="col-md-5 col-sm-12">
+								<div class="new-cars-txt">
+									<h2>
+										<a href="#">{{ car.marque.name }} <span>{{ car.model }}</span></a>
+									</h2>
+									<p>
+										Année : {{ car.year }}<br>
+										Puissance fiscale : {{ car.Puissance_fiscale }} CV<br>
+										Boîte : {{ car.Boite_de_vitesses }}<br>
+										Kilométrage : {{ car.km }} km
+									</p>
+									<p class="new-cars-para2">
+										Prix : {{ car.price }} DH<br>
+										Origine : {{ car.Origine }}<br>
+										Première main : {{ car.Première_main }}
+									</p>
+									<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
+										View Details
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</section>
+
+<br><br>
+
+
+<section>
+	<div class="container">
+		<form method="get" action="{% url 'cars:automobile' %}">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="model-search-content">
+							<div class="row">
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<h2>Select Year</h2>
+										<div class="model-select-icon">
+											<select class="form-control" name="year">
+												<option value="">Year</option>
+												{% for year in years %}
+													<option value="{{ year }}">{{ year }}</option>
+												{% endfor %}
+											</select>
+										</div>
+									</div>
+									<div class="single-model-search">
+										<h2>Body Style</h2>
+										<div class="model-select-icon">
+											<select class="form-control" name="style">
+												<option value="">Style</option>
+												{% for style in styles %}
+													<option value="{{ style }}">{{ style }}</option>
+												{% endfor %}
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<h2>Select Make</h2>
+										<div class="model-select-icon">
+											<select class="form-control" name="marque">
+												<option value="">Make</option>
+												{% for marque in marques %}
+													<option value="{{ marque.id }}">{{ marque.name }}</option>
+												{% endfor %}
+											</select>
+										</div>
+									</div>
+									<div class="single-model-search">
+										<h2>Car Condition</h2>
+										<div class="model-select-icon">
+											<select class="form-control" name="categories">
+												<option value="">categories</option>
+												{% for categories in categories %}
+													<option value="{{ categories }}">{{ categories }}</option>
+												{% endfor %}
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<h2>Select Model</h2>
+										<div class="model-select-icon">
+											<select class="form-control" name="model">
+												<option value="">Model</option>
+												{% for model in models %}
+													<option value="{{ model }}">{{ model }}</option>
+												{% endfor %}
+											</select>
+										</div>
+									</div>
+									<div class="single-model-search">
+										<h2>Select Price</h2>
+										<div class="model-select-icon">
+											<select class="form-control" name="price">
+												<option value="">Price</option>
+												{% for price in prices %}
+													<option value="{{ price }}">{{ price }} DH</option>
+												{% endfor %}
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-2 col-sm-12 text-center">
+									<div class="single-model-search">
+										<button type="submit" class="welcome-btn model-search-btn">
+											Search
+										</button>
+									</div>
+								</div>
+							</div> <!-- /.row -->
+						</div> <!-- /.model-search-content -->
+					</div>
+				</div>
+			</div>
+			</form>
+	</div>
+</section>
+
+<br>
+<br>
+
+
+<section id="featured-cars" class="featured-cars">
+	<div class="container">
+		<div class="section-header">
+			<h2>Featured Cars</h2>
+		</div>
+
+		<div class="featured-cars-content">
+			<div class="row">
+				{% for car in cars %}
+				<div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+					<div class="single-featured-cars">
+						<div class="featured-img-box">
+							<div class="featured-cars-img">
+								{% if car.image_front %}
+								<a href="{% url 'cars:car_detail' car.id %}">
+									<img src="{{ car.image_front.url }}" alt="{{ car.model }}" style="height: 200px; width: 100%; object-fit: cover;">
+								</a>	{% else %}
+									<img src="{% static 'assets/images/default-car.jpg' %}" alt="default car">
+								{% endif %}
+							</div>
+							<div class="featured-model-info">
+								<p>
+									Model: {{ car.year }}
+									<span class="featured-mi-span">{{ car.km }} km</span>
+									<span class="featured-hp-span">{{ car.Puissance_fiscale }} CV</span>
+									{{ car.Boite_de_vitesses }}
+								</p>
+							</div>
+						</div>
+						<div class="featured-cars-txt">
+							<h2><a href="#">{{ car.marque }} {{ car.model }}</a></h2>
+							<h3>{{ car.price|floatformat:0 }} DH</h3>
+							<p>
+								Origine: {{ car.Origine }} | 1ère main: {{ car.Première_main }}
+							</p>
+						</div>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</section>
+
+{% endblock content %}

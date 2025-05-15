@@ -1,0 +1,116 @@
+
+{% extends 'base.html' %}
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+    {% block head %}
+    
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <style>
+        .grid {
+            margin-top: 150px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+
+            margin-top: 30px;
+
+            background: white;
+            width: 240px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+        }
+
+        .card img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .card h3 {
+            padding: 10px 0;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .subcategories {
+            display: none;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .subcategories h4 {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .show {
+            display: block;
+        }
+    </style>
+{% endblock head %}
+
+<body>
+
+
+    {% block content %}
+    <section>
+        <form method="get" class="filter-form" style="margin-top: 150px;
+">
+            {{ form.as_p }}
+            <button type="submit">Filtrer</button>
+        </form>
+    
+        {% if selected_vehicle %}
+            <h2>Pièces pour : {{ selected_vehicle }}</h2>
+        {% endif %}
+
+
+
+
+        
+    
+        <div class="grid">
+            {% for cat in categories %}
+                <div class="card" onclick="toggleSubcategories('subcat-{{ cat.id }}')">
+                    <img src="{{ cat.img.url }}" alt="{{ cat.name }}">
+                    <h3>{{ cat.name }}</h3>
+                    {% if cat.subcategories.all %}
+                        <div class="subcategories" id="subcat-{{ cat.id }}">
+                            {% for subcat in cat.subcategories.all %}
+                                <h4>– {{ subcat.name }}</h4>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+            {% empty %}
+                <p>Aucune catégorie trouvée.</p>
+            {% endfor %}
+        </div>
+    </section>
+    
+    <script>
+        function toggleSubcategories(id) {
+            const el = document.getElementById(id);
+            el.classList.toggle('show');
+        }
+    </script>
+    {% endblock content %}
+    
+</body>
+</html>
+

@@ -1,0 +1,99 @@
+
+
+{% extends 'base.html' %}
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+
+	{% block head %}
+
+<head>
+  <meta charset="UTF-8">
+  <title>Catalogue Outillage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f7f7f7;
+    }
+
+
+
+    .grid {
+      margin-top: 150px;
+
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      width: 300px;
+      height:400px;
+      transition: transform 0.2s;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      font-size: 20px;
+      padding: 1rem;
+      color: #222;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+	{% endblock head %}
+
+
+
+
+
+  <body>
+
+
+	{% block content %}
+
+  <h1 style="   text-align: center;
+      color: #333;
+      margin-top: 200px;">Catégories d'Outillage</h1>
+
+  <div class="grid">
+    {% for category in categories %}
+      <div class="card">
+
+          <img src="{{ category.image }}" alt="{{ category.name }}">
+          <h3>{{ category.name }}</h3>
+       
+      </div>
+    {% endfor %}
+  </div>
+	{% endblock content %}
+
+</body>
+</html>

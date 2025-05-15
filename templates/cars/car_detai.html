@@ -1,0 +1,103 @@
+{% load static %}
+
+{% block content %}
+<style>
+  .slider {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+
+  .slides img {
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+
+  .nav-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+
+  .nav-buttons button {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .car-info {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+
+  .car-info ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .car-info ul li {
+    margin-bottom: 8px;
+  }
+</style>
+
+<div class="car-detail">
+  <div class="slider">
+    <div class="slides" id="slider">
+      <img src="{{ car.image_front.url }}" alt="{{ car.nom }}">
+
+
+
+
+      <!-- Tu peux ajouter d'autres images ici manuellement ou avec un champ ManyToMany si tu en as -->
+      <!-- <img src="{% static 'img/another.jpg' %}" alt="Autre vue"> -->
+    </div>
+    <div class="nav-buttons">
+      <button onclick="moveSlide(-1)">❮</button>
+      <button onclick="moveSlide(1)">❯</button>
+    </div>
+  </div>
+
+  <div class="car-info">
+    <h1>{{ car.marque }} {{ car.nom }}</h1>
+    <ul>
+      <li><strong>Modèle :</strong> {{ car.modele }}</li>
+      <li><strong>Année :</strong> {{ car.annee }}</li>
+      <li><strong>Énergie :</strong> {{ car.energie }}</li>
+      <li><strong>Transmission :</strong> {{ car.transmission }}</li>
+      <li><strong>Kilométrage :</strong> {{ car.kilometrage }} km</li>
+      <li><strong>Puissance :</strong> {{ car.puissance }} HP</li>
+      <li><strong>Prix :</strong> {{ car.prix }} €</li>
+    </ul>
+    <p>{{ car.description }}</p>
+  </div>
+</div>
+
+<script>
+  let slideIndex = 0;
+  const slider = document.getElementById('slider');
+  const totalSlides = slider.children.length;
+
+  function moveSlide(step) {
+    slideIndex = (slideIndex + step + totalSlides) % totalSlides;
+    slider.style.transform = `translateX(-${slideIndex * 100}%)`;
+  }
+</script>
+{% endblock %}
