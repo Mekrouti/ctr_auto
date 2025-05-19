@@ -1,23 +1,30 @@
-from django.core.management.base import BaseCommand
 import json
-# Configure Django (à adapter à ton projet)
-
-from outillage.models import Category  # ← Ton vrai modèle ici
+from django.core.management.base import BaseCommand
+from outillage.models import Category
 
 class Command(BaseCommand):
-    help = "Charge les catégories depuis un fichier JSON"
+    help = "Charger les catégories depuis un fichier JSON"
 
-    def handle(self, *args, **kwargs):
-        with open("category_outil.json", encoding="utf-8") as f:
+    def handle(self, *args, **options):
+        with open("category_outil.json", "r", encoding="utf-8") as f:
             data = json.load(f)
 
         for item in data:
-            Category.objects.get_or_create(
-                name=item["name"],
-                url=item["url"],
-                image=item["image"]
-            )
+            try:
+                fields = item["fields"]
+                name = fields["name"]
+                url = fields.get("url", "")
+                image = fields.get("image", "")
 
-        self.stdout.write(self.style.SUCCESS("Import terminé."))
+                cat, created = Category.objects.get_or_create(
+                    name=name,
+                    defaults={"url": url, "image": image}
+                )
 
+                if created:
+                    self.stdout.write(self.style.SUCCESS(f"🆕 Catégorie ajoutée : {name}"))
+                else:
+                    self.stdout.write(f"✅ Catégorie déjà existante : {name}")
 
+            except Exception as e:
+                self.stderr.write(f"❌ Erreur avec l'entrée : {item}\n{e}")

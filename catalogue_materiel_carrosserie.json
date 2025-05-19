@@ -1,94 +1,107 @@
 [
     {
+        "model": "outillage.Product",
+        "fields":{
         "titre": "Cabine de peinture Astra",
         "image": "https://mgmindustries.ma/wp-content/uploads/2019/01/cabine-peinture-astra.jpg",
         "lien": "https://mgmindustries.ma/details/cabine-de-peinture-astra/",
         "categories": [
-            "Cabine de peinture",
             "MATÉRIEL DE CARROSSERIE"
         ]
-    },
+    }},
     {
+        "model": "outillage.Product",
+        "fields":{
         "titre": "Sécheur Infrarouge Automatique ASTRA",
         "image": "https://mgmindustries.ma/wp-content/uploads/2019/02/secheur-infra-rouge-1.jpg-1-1.jpg",
         "lien": "https://mgmindustries.ma/details/winery-dry-creek-building/",
         "categories": [
-            "MATÉRIEL DE CARROSSERIE",
-            "Sécheur Infrarouge"
+            "MATÉRIEL DE CARROSSERIE"
         ]
-    },
+    }},
     {
+        "model": "outillage.Product",
+        "fields":{
         "titre": "Aire de Préparation ASTRA",
         "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/Zonas-preparacion-scaled-1.jpg",
         "lien": "https://mgmindustries.ma/details/aire-de-preparation-astra/",
         "categories": [
-            "Cabine de peinture",
             "MATÉRIEL DE CARROSSERIE"
         ]
-    },
+    }},
     {
+        "model": "outillage.Product",
+        "fields":{
         "titre": "Sécheur Infrarouge ASTRA",
         "image": "https://mgmindustries.ma/wp-content/uploads/2019/02/astra-secheur-infrarouge-1.png",
         "lien": "https://mgmindustries.ma/details/astra-secheur-infrarouge/",
         "categories": [
-            "MATÉRIEL DE CARROSSERIE",
-            "Sécheur Infrarouge"
+            "MATÉRIEL DE CARROSSERIE"
         ]
-    },
+    }},
     {
+        "model": "outillage.Product",
+        "fields":{
         "titre": "Mini Lift  ASTRA",
         "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/minilift.png",
         "lien": "https://mgmindustries.ma/details/tables-elevatrices-mobiles-mini-lift-astra/",
         "categories": [
-            "MATÉRIEL DE CARROSSERIE",
-            "Mini Lift"
+            "MATÉRIEL DE CARROSSERIE"
         ]
-    },
+    }},
     {
+        "model": "outillage.Product",
+        "fields":{
         "titre": "Banc de Redressage Universel pour Réparations Structurelles",
         "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/banc-de-redressage-1.png",
         "lien": "https://mgmindustries.ma/details/banc-de-redressage-universel-pour-reparations-structurelles-2/",
         "categories": [
-            "Banc de redressage",
             "MATÉRIEL DE CARROSSERIE"
         ]
-    },
+    }},
     {
+        "model": "outillage.Product",
+        "fields":{
         "titre": "KIT de Carrosserie réparation  10T MEGA",
         "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/KIT-20T-1.png",
         "lien": "https://mgmindustries.ma/details/kit-de-reparation-20t-mega/",
         "categories": [
-            "MATÉRIEL DE CARROSSERIE",
-            "Verin de redressage"
+            "MATÉRIEL DE CARROSSERIE"
         ]
-    },
+    }},
     {
+        "model": "outillage.Product",
+        "fields":{
         "titre": "Sécheur Infrarouge ASTRA",
         "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/secheur-de-peinture-infrarouge-professionnel-mobile-3300-w-829000302-2.jpg",
         "lien": "https://mgmindustries.ma/details/secheur-infrarouge-astra/",
         "categories": [
             "MATÉRIEL DE CARROSSERIE"
         ]
-    },
+    }},
     {
+        "model": "outillage.Product",
+        "fields":{
         "titre": "Verin de Redressage BAHCO 4 Tonnes",
         "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/Verin-de-redressage-BAHCO-04-Tonnes.-2.png",
         "lien": "https://mgmindustries.ma/details/verin-de-redressage-bahco-4-tonnes-2/",
         "categories": [
-            "MATÉRIEL DE CARROSSERIE",
-            "Verin de redressage"
+            "MATÉRIEL DE CARROSSERIE"
         ]
-    },
+    }},
     {
+        "model": "outillage.Product",
+        "fields":{
         "titre": "Verin de redressage BAHCO 10 Tonnes",
         "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/coffret-verin-de-redressage-10t-bahco-1.jpg",
         "lien": "https://mgmindustries.ma/details/verin-de-redressage-bahco-10-tonnes/",
         "categories": [
-            "MATÉRIEL DE CARROSSERIE",
-            "Verin de redressage"
+            "MATÉRIEL DE CARROSSERIE"
         ]
-    },
+    }},
     {
+        "model": "outillage.Product",
+        "fields":{
         "titre": "Equerre de redressage EHA-10 MEGA",
         "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/Equerre-MEGA-1-1.png",
         "lien": "https://mgmindustries.ma/details/equerre-de-redressage-10t-mega/",
@@ -96,14 +109,25 @@
             "Equerre de redressage",
             "MATÉRIEL DE CARROSSERIE"
         ]
-    },
+    }},
     {
+        "model": "outillage.Product",
+        "fields":{
         "titre": "KIT de Carrosserie réparation 10T  MEGA",
         "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/Kit-de-Carrosserie.png",
         "lien": "https://mgmindustries.ma/details/trousse-de-carrosserie-10t-mega/",
         "categories": [
-            "MATÉRIEL DE CARROSSERIE",
-            "Verin de redressage"
+            "MATÉRIEL DE CARROSSERIE"
         ]
-    }
+    }},
+    {
+        "model": "outillage.Product",
+        "fields":{
+        "titre": "Machine Tire Bosse GYS",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/TIRE-BOSSE-3.jpg",
+        "lien": "https://mgmindustries.ma/details/machine-tire-bosse-gys/",
+        "categories": [
+            "MATÉRIEL DE CARROSSERIE"
+        ]
+    }}
 ]

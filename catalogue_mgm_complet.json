@@ -1,0 +1,719 @@
+[{
+  "model": "outillage.Product",
+   "fields":{
+        "titre": "Cabine de peinture Astra",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2019/01/cabine-peinture-astra.jpg",
+        "lien": "outillage/details/cabine-de-peinture-astra/",
+        "category":"MATÉRIEL DE CARROSSERIE"
+        
+    }},
+    {
+  "model": "outillage.Product",
+   "fields":{
+        "titre": "Sécheur Infrarouge Automatique ASTRA",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2019/02/secheur-infra-rouge-1.jpg-1-1.jpg",
+        "lien": "outillage/details/winery-dry-creek-building/",
+        "category":"MATÉRIEL DE CARROSSERIE"
+        
+    }},
+    {
+  "model": "outillage.Product",
+   "fields":{
+        "titre": "Aire de Préparation ASTRA",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/Zonas-preparacion-scaled-1.jpg",
+        "lien": "outillage/details/aire-de-preparation-astra/",
+        "category":"MATÉRIEL DE CARROSSERIE"
+        
+    }},
+    {
+  "model": "outillage.Product",
+   "fields":{
+        "titre": "Sécheur Infrarouge ASTRA",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2019/02/astra-secheur-infrarouge-1.png",
+        "lien": "outillage/details/astra-secheur-infrarouge/",
+        "category":"MATÉRIEL DE CARROSSERIE"
+        
+    }},
+    {
+  "model": "outillage.Product",
+   "fields":{
+        "titre": "Mini Lift  ASTRA",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/minilift.png",
+        "lien": "outillage/details/tables-elevatrices-mobiles-mini-lift-astra/",
+        "category":"MATÉRIEL DE CARROSSERIE"
+        
+    }},
+    {
+  "model": "outillage.Product",
+   "fields":{
+        "titre": "Banc de Redressage Universel pour Réparations Structurelles",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/banc-de-redressage-1.png",
+        "lien": "outillage/details/banc-de-redressage-universel-pour-reparations-structurelles-2/",
+        "category":"MATÉRIEL DE CARROSSERIE"
+        
+    }},
+    {
+  "model": "outillage.Product",
+   "fields":{
+        "titre": "KIT de Carrosserie réparation  10T MEGA",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/KIT-20T-1.png",
+        "lien": "outillage/details/kit-de-reparation-20t-mega/",
+        "category":"MATÉRIEL DE CARROSSERIE"
+        
+    }},
+    {
+  "model": "outillage.Product",
+   "fields":{
+        "titre": "Sécheur Infrarouge ASTRA",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/secheur-de-peinture-infrarouge-professionnel-mobile-3300-w-829000302-2.jpg",
+        "lien": "outillage/details/secheur-infrarouge-astra/",
+        "category":"MATÉRIEL DE CARROSSERIE"
+        
+    }},
+    {
+  "model": "outillage.Product",
+   "fields":{
+        "titre": "Verin de Redressage BAHCO 4 Tonnes",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/Verin-de-redressage-BAHCO-04-Tonnes.-2.png",
+        "lien": "outillage/details/verin-de-redressage-bahco-4-tonnes-2/",
+        "category":"MATÉRIEL DE CARROSSERIE"
+        
+    }},
+    {
+  "model": "outillage.Product",
+   "fields":{
+        "titre": "Verin de redressage BAHCO 10 Tonnes",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/coffret-verin-de-redressage-10t-bahco-1.jpg",
+        "lien": "outillage/details/verin-de-redressage-bahco-10-tonnes/",
+        "category":"MATÉRIEL DE CARROSSERIE"
+        
+    }},
+    {
+  "model": "outillage.Product",
+   "fields":{
+        "titre": "Equerre de redressage EHA-10 MEGA",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/Equerre-MEGA-1-1.png",
+        "lien": "outillage/details/equerre-de-redressage-10t-mega/",
+        "category":"MATÉRIEL DE CARROSSERIE"
+    
+    }},
+    {
+  "model": "outillage.Product",
+   "fields":{
+        "titre": "KIT de Carrosserie réparation 10T  MEGA",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/Kit-de-Carrosserie.png",
+        "lien": "outillage/details/trousse-de-carrosserie-10t-mega/",
+        "category":  "MATÉRIEL DE CARROSSERIE"
+        
+    }},
+    {
+  "model": "outillage.Product",
+   "fields":{
+        "titre": "Machine Tire Bosse GYS",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/TIRE-BOSSE-3.jpg",
+        "lien": "outillage/details/machine-tire-bosse-gys/",
+        "category":  "MATÉRIEL DE CARROSSERIE"
+        
+    }},
+     {
+  "model": "outillage.Product",
+   "fields":{
+            "titre":"Appareil de Géométrie Bluetooth GEO10 CORMACH",
+            "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/CORMACH-GEO-10-2.png",
+            "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+            
+            }
+        },
+    
+    {
+  "model": "outillage.Product",
+   "fields":{
+            "titre":"Appareil de Géometrie BUTLER",
+            "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/01CC228D-83A0-4CCE-A123-9916BA8DD1F9-e1613040122486-1.jpeg",
+            "lien": "outillage/details/appareil-de-geometrie-butler/",
+            "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+            }},
+    {
+  "model": "outillage.Product",
+   "fields":{
+            "titre":"Appareil de Géométrie Bluetooth WR328A CORMACH",
+            "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/CORMACH-VL-ET-PL-8-CCD-BLUETOOTH-WR328A-4.png",
+            "lien": "outillage/details/appareil-de-geometrie-bluetooth-wr328a-cormach/",
+             "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+        
+    }},
+{
+    "model": "outillage.Product",
+    "fields":{
+        "titre":"Appareil de Géométrie 3D CORMACH",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/aligneuse-de-roues-Butler-798754.jpg",
+        "lien": "outillage/details/appareil-geometrie-3d-cormach-2/",
+        "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Équilibreuse électronique avec Ecran LCD CORMACH",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/CORMACH-MEC-820VD-3.png",
+        "lien": "outillage/details/equilibreuse-electronique-avec-ecran-lcd/",
+        "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Equilibreuse MEC 5 CORMACH",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/MEC5-1-2.png",
+        "lien": "outillage/details/mec-5/",
+        "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Equilibreuse MEC 810 VD   CORMACH",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/MEC-810-VD-2.png",
+        "lien": "outillage/details/mec-810-vd/",
+        "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Equilibreuse TOUCH MEC 1000 CORMACH",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/CORMACH-TOUCH-MEC-1000-2.png",
+        "lien": "outillage/details/equilibreuse-touch-mec-1000/",
+        "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Équilibreuses 820 VD Electroniques avec Ecran LCD CORMACH",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/CORMACH-MEC-820VD-1-1.png",
+        "lien": "outillage/details/equilibreuses-820-vd-electroniques-avec-ecran-lcd/",
+        "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Equilibreuse MEC 10 Electronique CORMACH",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/CORMACH-MEC-10-1-2.png",
+        "lien": "outillage/details/equilibreuse-mec-1000-electronique/",
+        "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Démonte Pneu LIGRO  CORMACH",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/CORMACH-LIGRO-2.png",
+        "lien": "outillage/details/demonte-pneu-ligro-cormach/",
+        "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+ 
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Démonte Pneu VL F23AS CORMACH",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/CORMACH-F23AS-1-2.png",
+        "lien": "outillage/details/demonte-pneu-vl-f23as-cormach/",
+        "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Démonte Pneu F23AS CORMACH",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/CORMACH-F23AS-3.png",
+        "lien": "outillage/details/693-2/",
+        "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Démonte Pneu VL F524WS CORMACH",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/CORMACH-F524WS-2.png",
+        "lien": "outillage/details/demonte-pneu-vl-f524ws-cormach/",
+        "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Démonte Pneu VL F535S CORMACH",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/CORMACH-F355S-2.png",
+        "lien": "outillage/details/demonte-pneu-vl-f535s-cormach/",
+        "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Démonte Pneu PL FT560S CORMACH",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/CORMACH-FT560S-2.png",
+        "lien": "outillage/details/demonte-pneu-pl-ft560s-cormach/",
+        "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Démonte Pneu PL Super Vigor 60 CORMACH",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/CORMACH-PL-SUPER-VIGOR-60-1-1.png",
+        "lien": "outillage/details/demonte-pneu-pl-super-vigor-60-cormach/",
+        "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Pont Elevateur 4 Colonnes RAVAGLIOLI",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/RAV-4000-SERIES-317x286-1-2.png",
+        "lien": "outillage/details/pont-elevateur-4-colonnes-ravaglioli/",
+        "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+   
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Pont Elevateur L3000 CORMACH",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/CORMACH-PONT-ELEVATUER-L3000-2.png",
+        "lien": "outillage/details/pont-elevateur-l3000-cormach/",
+        "category":"MATÉRIEL DE STATION PNEUMATIQUE"
+          
+        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Pont Elevatuer pour voitures de sport BUTLER",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/Pont-elevateur-2-Colonnes-BULTER-2-2.png",
+        "lien": "outillage/details/pont-elevatuer-pour-voitures-de-sport-butler/",
+        "category":  "MATÉRIEL DE STATION PNEUMATIQUE"
+        
+        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Pont élévateur 4 colonnes BUTLER",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/pont-elevateur-4-colonnes-2-1.png",
+        "lien": "outillage/details/1303-2/",
+        "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+       
+        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Pont élévateur Ciseaux BUTLER",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/Bulter-1.png",
+        "lien": "outillage/details/1291-2/",
+        "category": "MATÉRIEL DE STATION PNEUMATIQUE"
+        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Ponts élévateurs électro-hydrauliques à deux colonnes BUTLER .",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/Pont-elevateur-2-Colonnes-BULTER-3.png",
+        "lien": "outillage/details/ponts-elevateurs-electro-hydrauliques-a-deux-colonnes-butler/",
+        "category":  "MATÉRIEL DE STATION PNEUMATIQUE"
+        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Pont Elevateur L3300 CORMACH",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/CORMACH-PONT-ELEVATUER-L3300-2.png",
+        "lien": "outillage/details/1011-2/",
+        "category":  "MATÉRIEL DE STATION PNEUMATIQUE"
+        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Gonfleur à Gaz Azote R8  NITROMAC",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/R8-3.jpg",
+        "lien": "outillage/details/gonfleur-a-gaz-azote-r8-nitromac/",
+        "category":  "MATÉRIEL DE STATION PNEUMATIQUE"
+        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Compresseur d’Air BK 119-300 FINI",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/FINI-MK-103-200-2.jpg",
+        "lien": "outillage/details/compresseur-dair-a-piston-300-l/",
+        "category":  "COMPRESSEUR À AIR"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Compresseur à Vis Belt Driven 3KW ATEK",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/BELT-DRIVEN-3KW-2.jpg",
+        "lien": "outillage/details/compresseur-a-vis-belt-driven-3kw/",
+        "category":  "COMPRESSEUR À AIR"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Air Tanks 500LT",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/TANK-500LT-2.jpg",
+        "lien": "outillage/details/tanks-500lt/",
+        "category":  "COMPRESSEUR À AIR"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Compresseur  BK 119-500F-7,5-TA FINI",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/FINI-BK-119-500-2.jpg",
+        "lien": "outillage/details/compresseur-bk-119-500f-75-ta-fini/",
+        "category":  "COMPRESSEUR À AIR"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Compresseur à vis série poulie à courroie  Belt Driven 7.5 ATEK",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/BELT-DRIVEN-7.5-3.png",
+        "lien": "outillage/details/compresseur-a-vis-serie-poulie-a-courroie-belt-driven-7-5/",
+        "category":  "COMPRESSEUR À AIR"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Compresseur à Vis ATV-DK3  ATEK",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/ATV-DK3-2.jpg",
+        "lien": "outillage/details/compresseur-a-vis/",
+        "category":  "COMPRESSEUR À AIR"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Récupérateur d’huile usée 65litres Réf 46064  RAASM",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/46064-1-2.png",
+        "lien": "outillage/details/recuperateur-dhuile-usee-65litres-ref-46064-raasm/",
+        "category":   "MATÉRIEL DE GRAISSAGE ET DE VIDANGE"
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Pompe de graissage Ref 45110  RAASM",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/45110-2.jpg",
+        "lien": "outillage/details/pompe-de-graissage-ref-45110-raasm/",
+        "category":   "MATÉRIEL DE GRAISSAGE ET DE VIDANGE"
+    }},
+
+    
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Pompe à Graisse Ref 44116  RAASM",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/44116-1-2-1.jpg",
+        "lien": "outillage/details/1033-2/",
+        "category":   "MATÉRIEL DE GRAISSAGE ET DE VIDANGE"
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Pompe à Graisse  Réf 46064 RAASM",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/RAAMS-46064-1.jpg",
+        "lien": "outillage/details/46064-2/",
+        "category":   "MATÉRIEL DE GRAISSAGE ET DE VIDANGE"
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Pompe à Graisse  Réf 43116  RAASM",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/43116-1-3.jpg",
+        "lien": "outillage/details/43116-2/",
+        "category":   "MATÉRIEL DE GRAISSAGE ET DE VIDANGE"
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Pompe à graisse RAAMS 43016",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/RAAMS-43116-3.jpg",
+        "lien": "outillage/details/43016-2/",
+        "category":   "MATÉRIEL DE GRAISSAGE ET DE VIDANGE"
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Machine de Redressement Hydraulique de Jantes",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/F24WL-768x958-1-2.jpg",
+        "lien": "outillage/details/machine-de-redressement-hydraulique-de-jantes-f24wl-avec-tour/",
+        "category":  "REDRESSEUR DE JANTE - VULCANISATEUR - REGLOPHARE"        
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Machine de redressage des Jantes JUNIOR",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/JUNIOR-2.jpg",
+        "lien": "outillage/details/junior/",
+        "category": "REDRESSEUR DE JANTE - VULCANISATEUR - REGLOPHARE"
+
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Gonfleur à Gaz Azote R8  NITROMAC",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/R8-3.jpg",
+        "lien": "outillage/details/gonfleur-a-gaz-azote-r8-nitromac/",
+        "category": "REDRESSEUR DE JANTE - VULCANISATEUR - REGLOPHARE"
+
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"ligne Emission OPA-300",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/OPA-300-2.jpg",
+        "lien": "outillage/details/ligne-emission-opa-300/",
+        "category": "MATÉRIEL CHARGE CLIM ET ÉMISSION"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Station de Recharge AC-9000D 1234",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2019/02/AC-6000-PLUS-1-1-1.png",
+        "lien": "outillage/details/westin-hotel-and-transit-center/",
+        "category": "MATÉRIEL CHARGE CLIM ET ÉMISSION"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Station de Recharge AIR-NEX 9320",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2019/02/AIR-NEX-9320-R1234-1-1.png",
+        "lien": "outillage/details/valencia-tenderloin-center/",
+        "category": "MATÉRIEL CHARGE CLIM ET ÉMISSION"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Station de Recharge AC 6000 Plus",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2019/02/AC-6000-PLUS-2.png",
+        "lien": "outillage/details/shirley-ryan-abilitylab/",
+        "category": "MATÉRIEL CHARGE CLIM ET ÉMISSION"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Analyseur de Gaz d’ Echappement AGS-688",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2019/02/AGS688-2.png",
+        "lien": "outillage/details/the-meredith-residence/",
+        "category": "MATÉRIEL CHARGE CLIM ET ÉMISSION"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Nettoyeur haute pression professionnel 1003K cod. 25543 ANNOVI REVERBERI BLUE",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/1003k-1.png",
+        "lien": "outillage/details/nettoyeur-haute-pression-professionnel-avec-pompe-a-trois-pistons-1003k-cod-25543-annovi-reverberi-blue/",
+        "category": "MATÉRIEL DE LAVAGE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Aspiration avec refroidissement APPOLOIF LAVOR",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/APPOLOIF-2.jpg",
+        "lien": "outillage/details/appoloif/",
+        "category": "MATÉRIEL DE LAVAGE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Générateur Vapeur LAVOR GV 3.3M LAVOR",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/GV-33-M-PLUS-2.png",
+        "lien": "outillage/details/generateur-vapeur-lavor-gv-3-3m-lavor/",
+        "category": "MATÉRIEL DE LAVAGE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Monobrosse SDM-R45G  LAVOR",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/MONOBROSSE-3.png",
+        "lien": "outillage/details/monobrosse-sdm-r45g-lavor/",
+        "category": "MATÉRIEL DE LAVAGE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Pompe Axiale 3 pistons NPX LAVOR",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/NPX-1211-XP-2.png",
+        "lien": "outillage/details/pompe-axiale-3-pistons-npx-lavor/",
+        "category": "MATÉRIEL DE LAVAGE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Système d’aspiration avec refroidissement windy 365 IR  LAVOR",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/WINDY-365-IR-2.png",
+        "lien": "outillage/details/systeme-daspiration-avec-refroidissement-windy-365-ir-lavor/",
+        "category": "MATÉRIEL DE LAVAGE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Vaporisateur de Mousse FOAMJET SV50",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/FOAMJET-SX50-3.png",
+        "lien": "outillage/details/1411-2/",
+        "category": "MATÉRIEL DE LAVAGE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Machine de Lavage PWC40 LAVOR",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/PWC-4.0-2.jpg",
+        "lien": "outillage/details/pwc40/",
+        "category": "MATÉRIEL DE LAVAGE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Nettoyeur haute pression spécial, REF 1250S ANNOVI REVERBERI BLUE",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/1250S-1.png",
+        "lien": "outillage/details/nettoyeur-haute-pression-special-avec-cadre-tubulaire-1250s-annovi-reverberi-blue/",
+        "category": "MATÉRIEL DE LAVAGE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Nettoyeur haute pression 1445  ANNOVI REVERBERI BLUE",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/1445-e1612909896665.jpg",
+        "lien": "outillage/details/nettoyeur-haute-pression-a-moteur-essence-avec-chariot-complet-1445-cod-26407-annovi-reverberi-blue/",
+        "category": "MATÉRIEL DE LAVAGE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Nettoyeur haute pression  REF 1003  ANNOVI REVERBERI BLUE",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/1003.jpg",
+        "lien": "outillage/details/nettoyeur-haute-pression-professionnel-avec-pompe-a-trois-pistons-1003-rlw-cod-24389-annovi-reverberi-blue/",
+        "category": "MATÉRIEL DE LAVAGE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Nettoyeur haute pression 613K ANNOVI REVERBERI BLUE",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/103k-e1612909005689.jpg",
+        "lien": "outillage/details/nettoyeur-haute-pression-avec-chariot-complet-avec-poignee-613k-cod-13976-annovi-reverberi/",
+        "category": "MATÉRIEL DE LAVAGE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Nettoyeur haute pression  381 ANNOVI REVERBERI BLUE",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/381-m-5-e1612909649496.png",
+        "lien": "outillage/details/nettoyeur-haute-pression-annovi-reverberi-pompe-a-3-pistons-381-tss-125-ar-blue/",
+        "category": "MATÉRIEL DE LAVAGE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Nettoyeur haute pression  767 ANNOVI REVERBERI BLUE",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/767.jpg",
+        "lien": "outillage/details/nettoyeur-haute-pression-avec-poignee-pompe-a-3-pistons-767-cod-12364/",
+        "category": "MATÉRIEL DE LAVAGE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Nettoyeur haute pression 143  ANNOVI REVERBERI BLUE",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/143_13690-1.jpg",
+        "lien": "outillage/details/nettoyeur-haute-pression-avec-pompe-a-3-piston-143-cod-13690-ar-blue/",
+        "category": "MATÉRIEL DE LAVAGE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Nettoyeur haute pression  REF 117   ANNOVI REVERBERI BLUE",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/01/117.jpg",
+        "lien": "outillage/details/nettoyeur-haute-pression-avec-pompe-a-3-pistons-ref-117-cod-13689-ar-blue/",
+        "category": "MATÉRIEL DE LAVAGE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"POMPE MOTOPOME CL 54-20 21-200 Arbre Droit Ver  LAVOR",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/POMPE-MOTOPOME-2.png",
+        "lien": "outillage/details/pompe-motopome-cl-54-20-21-200-arbre-droit-ver-lavor/",
+        "category": "MATÉRIEL DE LAVAGE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Outil d’analyse et de diagnostic puissant et rapide  LAUNCH",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/DIAGNOSTIC-LAUNCH.png",
+        "lien": "outillage/details/systeme-de-calibrage-adas-pro-pour-x-431/",
+        "category":  "MATÉRIEL DE DIAGNOSTIC LAUNCH"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Grue pliable CRP20 MEGA   ONDO",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/banc-de-redressage-1.png",
+        "lien": "outillage/details/grue-pliable-crp20-mega-ondo/",
+        "category":  "CRIC-VERIN DE FOSSE - PRESSE HYDRAULIQUE - GRUE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"CRIC de Garage OGT2  MEGA ONDO",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/cric-ondo-e1613208484191-1.jpg",
+        "lien": "outillage/details/cric-ogt2/",
+        "category": "CRIC-VERIN DE FOSSE - PRESSE HYDRAULIQUE - GRUE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Verin de Fosse   OTRS1200   MEGA ONDO",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/ondo-3-e1613208334697-1.jpg",
+        "lien": "outillage/details/verin-de-fosse-orts1200/",
+        "category":  "CRIC-VERIN DE FOSSE - PRESSE HYDRAULIQUE - GRUE"
+    
+    }},
+     {
+"model": "outillage.Product",
+"fields":{
+        "titre":"Presse Hydraulique OPRC20   MEGA ONDO",
+        "image": "https://mgmindustries.ma/wp-content/uploads/2021/02/presse-hydraulique-ondo-2-2.png",
+        "lien": "outillage/details/pedale-pneumatique-oprc20-mega/",
+        "category":  "CRIC-VERIN DE FOSSE - PRESSE HYDRAULIQUE - GRUE"
+    
+    }}
+]

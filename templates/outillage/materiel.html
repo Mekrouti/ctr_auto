@@ -1,0 +1,103 @@
+
+
+{% extends 'base.html' %}
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+
+	{% block head %}
+
+<head>
+  <meta charset="UTF-8">
+  <title>Catalogue Outillage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <style>/* static/css/catalogue.css */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 150px;
+  font-size: 32px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 20px;
+  padding: 1rem;
+  color: #222;
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}
+</style>
+</head>
+	{% endblock head %}
+
+
+<body>
+  
+
+{% block content %}
+
+  <h1>Produits : {{ category.name }}</h1>
+
+  <div class="grid">
+    {% for produit in produits %}
+      <div class="card">
+
+        <a href="{% url 'outillage:product_detail' produit.id %}" target="_blank">
+          <img src="{{ produit.image }}" alt="{{ produit.titre }}">
+          <h3>{{ produit.titre }}</h3>
+        </a>
+      </div>
+    {% empty %}
+      <p style="text-align:center;">Aucun produit trouvé pour cette catégorie.</p>
+    {% endfor %}
+  </div>
+
+{% endblock %}

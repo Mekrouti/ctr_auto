@@ -1,6 +1,5 @@
 
 
-{% extends 'base.html' %}
 
 {% load static %}
 <!DOCTYPE html>
@@ -86,10 +85,10 @@
   <div class="grid">
     {% for category in categories %}
       <div class="card">
-
-          <img src="{{ category.image }}" alt="{{ category.name }}">
-          <h3>{{ category.name }}</h3>
-       
+<a href="{% url 'outillage:materiel' category.id %}">
+  <img src="{{ category.image }}" alt="{{ category.name }}">
+  <h3>{{ category.name }}</h3>
+</a>
       </div>
     {% endfor %}
   </div>
